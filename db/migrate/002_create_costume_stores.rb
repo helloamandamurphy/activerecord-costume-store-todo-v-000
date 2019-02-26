@@ -12,4 +12,4 @@ class CostumeStore < ActiveRecord::Migration[4.2]
       t.timestamps null: false
     end
   end 
-end# Create your costume_stores migration here
+end
