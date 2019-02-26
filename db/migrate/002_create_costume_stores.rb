@@ -3,9 +3,11 @@ class CostumeStore < ActiveRecord::Migration[4.2]
     create_table :costume_stores do |t|
       t.string :name 
       t.string :location
-      t.string :inventory
+      t.integer :inventory
       t.integer :employee_count
-      t.
+      t.boolean :open_closed
+      t.datetime :opening_time
+      t.datetime :closing_time
       
       t.timestamps null: false
     end
