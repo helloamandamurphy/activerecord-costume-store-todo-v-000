@@ -7,5 +7,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.string :price
       
       t.timestamps null: false
-    
+    end
+  end 
 end
